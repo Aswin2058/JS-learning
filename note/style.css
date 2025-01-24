@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: conic-gradient(from .5turn at 50% 110%, white, orange);
+    background-repeat: no-repeat;
+}
+
+#first-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.note-heading{
+    margin-top: 10%;
+}
+
+.note-heading svg{
+    width: 35px;
+    height: 35px;
+}
+
+.note-heading input{
+    background-color: rgba(255, 166, 0, 0.404);
+    width: 350px;
+    height: 30px;
+    border: none;
+        border-bottom: 1px solid silver;
+}
+
+.note-heading button{
+    width: 60px;
+    height: 30px;
+    font-size: large;
+    background-color: teal;
+}
+
+.notes-here{
+    min-width: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    list-style:circle;
+    text-align: start;
+}
+
+.notes-here li{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+}
+
+.crossed{
+    text-decoration: line-through;
+    color: grey;
+}

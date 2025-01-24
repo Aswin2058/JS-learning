@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: conic-gradient(from .5turn at center left, lime, cyan);
+    background-repeat: no-repeat;
+}
+
+#main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-container p{
+    font-size: 4rem;
+    margin-right: 20px;
+}
+

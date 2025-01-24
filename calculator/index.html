@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div class="num">
+            <input type="text" id="userInput" placeholder="0">
+            <button class="btn nine" onclick="pass(9)">9</button>
+            <button class="btn eight" onclick="pass(8)">8</button>
+            <button class="btn seven" onclick="pass(7)">7</button>
+            <button class="btn six" onclick="pass(6)">6</button>
+            <button class="btn five" onclick="pass(5)">5</button>
+            <button class="btn four" onclick="pass(4)">4</button>
+            <button class="btn three" onclick="pass(3)">3</button>
+            <button class="btn two" onclick="pass(2)">2</button>
+            <button class="btn one" onclick="pass(1)">1</button>
+            <button class="btn dot" onclick="pass('.')">.</button>
+            <button class="btn zero" onclick="pass(0)">0</button>
+            <button class="btn clear" onclick="erase()">c</button>
+        </div>
+        
+        <div class="signs">
+            <button class="btn equals" onclick="equal()">=</button>
+            <button class="btn add" onclick="pass('+')">+</button>
+            <button class="btn sub" onclick="pass('-')">-</button>
+            <button class="btn mul" onclick="pass('*')">*</button>
+            <button class="btn div" onclick="pass('/')">/</button>
+            
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

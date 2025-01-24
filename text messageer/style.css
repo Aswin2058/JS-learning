@@ -1,0 +1,48 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#first-content{
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: silver;
+    width: 70%;
+    min-height: 80vh;
+    margin-left: 15%;
+}
+
+.message-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-part svg{
+    width: 30px;
+    height: 30px;
+}
+
+.message-part button{
+    cursor: pointer;
+} 
+
+.message-view{
+    list-style: none;
+    /* position: absolute;
+    right: 0; */
+    width: 100%;
+}
+
+.message-view li{
+    background-color: rgb(219, 219, 219);
+    margin-top: 20px;
+    width: 100%;
+    text-align: end;
+    font-size: larger;
+}

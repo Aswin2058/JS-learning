@@ -1,0 +1,45 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 100%;
+}
+
+#image-cursor{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(20deg grey silver);
+}
+
+#image-cursor img{
+    max-width: 80%;
+    width: 60%;
+    height: 90vh;
+    position: relative;
+}
+
+#image-cursor svg{
+    width: 40px;
+    padding: 20px;
+}
+
+#image-cursor svg:hover{
+    background-color: silver;
+}
+
+#image-cursor .svg2{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+#image-cursor .svg1{
+    position: absolute;
+    top: 60%;
+    right: 15%;
+}
